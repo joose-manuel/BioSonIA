@@ -1,0 +1,30 @@
+{
+  "name": "front",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "front",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next dev -p 4200",
+        "cwd": "front"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "next build",
+        "cwd": "front"
+      }
+    },
+    "start": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "next start",
+        "cwd": "front"
+      }
+    }
+  }
+}
