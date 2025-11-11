@@ -6,7 +6,7 @@ Monorepo gestionado con Nx que incluye:
 
 ## Requisitos
 - Node.js 18+ y npm.
-- No necesitas instalar Nx globalmente; ya está configurado en el repo.
+- No necesitas instalar Nx globalmente; ya está configurado en el repo. .
 
 ## Instalación
 1. Instala dependencias:
