@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx run back:build:development",
-    "startTime": "2025-11-06T01:36:40.285Z",
-    "endTime": "2025-11-06T01:36:41.010Z",
+    "startTime": "2025-11-12T22:34:27.368Z",
+    "endTime": "2025-11-12T22:34:46.694Z",
     "inner": false
   },
   "tasks": [
@@ -10,11 +10,11 @@
       "taskId": "back:build:development",
       "target": "build",
       "projectName": "back",
-      "hash": "949341689272005202",
-      "startTime": "2025-11-06T01:36:40.576Z",
-      "endTime": "2025-11-06T01:36:40.985Z",
+      "hash": "7944676519331437288",
+      "startTime": "2025-11-12T22:34:28.431Z",
+      "endTime": "2025-11-12T22:34:46.622Z",
       "params": "",
-      "cacheStatus": "local-cache-hit",
+      "cacheStatus": "cache-miss",
       "status": 0
     }
   ]

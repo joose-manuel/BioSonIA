@@ -110,7 +110,7 @@
         },
         {
           "file": "dist/back/main.js",
-          "hash": "18313800455502677694",
+          "hash": "12836148273045857981",
           "deps": [
             [
               "npm:@nestjs/common",
@@ -128,15 +128,15 @@
         },
         {
           "file": "dist/back/main.js.map",
-          "hash": "5622331391940396847"
+          "hash": "2959628679430419140"
         },
         {
           "file": "dist/back/package-lock.json",
-          "hash": "14555422883816698015"
+          "hash": "1640089443482036943"
         },
         {
           "file": "dist/back/package.json",
-          "hash": "13940683550317438078"
+          "hash": "1005526511864354610"
         },
         {
           "file": "nx.json",
