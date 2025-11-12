@@ -29,85 +29,28 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
-      "front": [
-        {
-          "file": "front/.swcrc",
-          "hash": "2742566327615098680"
-        },
-        {
-          "file": "front/index.d.ts",
-          "hash": "5498222895072842432"
-        },
-        {
-          "file": "front/next-env.d.ts",
-          "hash": "1320675027584673186"
-        },
-        {
-          "file": "front/next.config.js",
-          "hash": "5443563404894739361",
-          "deps": [
-            "npm:@nx/next"
-          ]
-        },
-        {
-          "file": "front/project.json",
-          "hash": "14463895480250454867"
-        },
-        {
-          "file": "front/public/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "front/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "front/src/app/api/hello/route.ts",
-          "hash": "495073956729887886"
-        },
-        {
-          "file": "front/src/app/global.css",
-          "hash": "2063387531564215811"
-        },
-        {
-          "file": "front/src/app/layout.tsx",
-          "hash": "788192238495229921"
-        },
-        {
-          "file": "front/src/app/page.module.css",
-          "hash": "4786619528779355986"
-        },
-        {
-          "file": "front/src/app/page.tsx",
-          "hash": "4417175960814682015"
-        },
-        {
-          "file": "front/tsconfig.json",
-          "hash": "7823725760823050329"
-        }
-      ],
       "back": [
         {
           "file": "back/project.json",
-          "hash": "13604755652669096344"
+          "hash": "3102467034279575989"
         },
         {
           "file": "back/src/app/app.controller.ts",
-          "hash": "15276891910009544695",
+          "hash": "7449614201840690085",
           "deps": [
             "npm:@nestjs/common"
           ]
         },
         {
           "file": "back/src/app/app.module.ts",
-          "hash": "11673476679848632172",
+          "hash": "4590305082660932420",
           "deps": [
             "npm:@nestjs/common"
           ]
         },
         {
           "file": "back/src/app/app.service.ts",
-          "hash": "9967902337593410053",
+          "hash": "7653932249302388706",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -118,7 +61,7 @@
         },
         {
           "file": "back/src/main.ts",
-          "hash": "150780270862474464",
+          "hash": "6313424078570345534",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/core"
@@ -126,86 +69,40 @@
         },
         {
           "file": "back/tsconfig.app.json",
-          "hash": "5519104792858008127"
+          "hash": "13719191723694791494"
         },
         {
           "file": "back/tsconfig.json",
-          "hash": "4276712839166217253"
+          "hash": "11210391855315197954"
         },
         {
           "file": "back/webpack.config.js",
-          "hash": "14979769347229492090",
+          "hash": "9051721331902326636",
           "deps": [
             "npm:@nx/webpack"
           ]
         }
       ],
-      "back-e2e": [
-        {
-          "file": "back-e2e/jest.config.ts",
-          "hash": "12259973303507233020"
-        },
-        {
-          "file": "back-e2e/project.json",
-          "hash": "11939905386134703790"
-        },
-        {
-          "file": "back-e2e/src/back/back.spec.ts",
-          "hash": "110394728024017389",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "back-e2e/src/support/global-setup.ts",
-          "hash": "10817858795115919263",
-          "deps": [
-            "npm:@nx/node"
-          ]
-        },
-        {
-          "file": "back-e2e/src/support/global-teardown.ts",
-          "hash": "14210317125869451873",
-          "deps": [
-            "npm:@nx/node"
-          ]
-        },
-        {
-          "file": "back-e2e/src/support/test-setup.ts",
-          "hash": "15521797170623961900",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "back-e2e/tsconfig.json",
-          "hash": "2346920493880922870"
-        },
-        {
-          "file": "back-e2e/tsconfig.spec.json",
-          "hash": "14226830188665428950"
-        }
-      ],
       "biosonia": [
         {
           "file": ".gitignore",
-          "hash": "15641324059845053303"
+          "hash": "3172259094736134552"
         },
         {
           "file": ".prettierignore",
-          "hash": "14688272390704683536"
+          "hash": "17085498363870782104"
         },
         {
           "file": ".prettierrc",
-          "hash": "16267754514737964994"
+          "hash": "6820402234827505055"
         },
         {
           "file": ".vscode/launch.json",
-          "hash": "16253018362211409403"
+          "hash": "5435848918421032420"
         },
         {
           "file": "README.md",
-          "hash": "10166746470930659364"
+          "hash": "3480682491503566802"
         },
         {
           "file": "dist/back/assets/.gitkeep",
@@ -213,7 +110,7 @@
         },
         {
           "file": "dist/back/main.js",
-          "hash": "12836148273045857981",
+          "hash": "18313800455502677694",
           "deps": [
             [
               "npm:@nestjs/common",
@@ -235,23 +132,23 @@
         },
         {
           "file": "dist/back/package-lock.json",
-          "hash": "1640089443482036943"
+          "hash": "14555422883816698015"
         },
         {
           "file": "dist/back/package.json",
-          "hash": "1005526511864354610"
+          "hash": "13940683550317438078"
         },
         {
           "file": "nx.json",
-          "hash": "5810718939175842920"
+          "hash": "15036811711444074843"
         },
         {
           "file": "package-lock.json",
-          "hash": "14901563986520945064"
+          "hash": "8160351684677780385"
         },
         {
           "file": "package.json",
-          "hash": "9638914933215767368",
+          "hash": "16344783737554964304",
           "deps": [
             "npm:@nestjs/schematics",
             "npm:@nestjs/testing",
@@ -286,7 +183,110 @@
         },
         {
           "file": "tsconfig.base.json",
-          "hash": "16936441711144470533"
+          "hash": "12471885200579325840"
+        }
+      ],
+      "back-e2e": [
+        {
+          "file": "back-e2e/jest.config.ts",
+          "hash": "7973412574366641491"
+        },
+        {
+          "file": "back-e2e/project.json",
+          "hash": "16450172783020564350"
+        },
+        {
+          "file": "back-e2e/src/back/back.spec.ts",
+          "hash": "6988925255182087386",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "back-e2e/src/support/global-setup.ts",
+          "hash": "16834055068596475974",
+          "deps": [
+            "npm:@nx/node"
+          ]
+        },
+        {
+          "file": "back-e2e/src/support/global-teardown.ts",
+          "hash": "2871886327683970459",
+          "deps": [
+            "npm:@nx/node"
+          ]
+        },
+        {
+          "file": "back-e2e/src/support/test-setup.ts",
+          "hash": "3131268884761417701",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "back-e2e/tsconfig.json",
+          "hash": "1097160346939126459"
+        },
+        {
+          "file": "back-e2e/tsconfig.spec.json",
+          "hash": "2004942633809930099"
+        }
+      ],
+      "front": [
+        {
+          "file": "front/.swcrc",
+          "hash": "14363985528461528173"
+        },
+        {
+          "file": "front/index.d.ts",
+          "hash": "17021007320214501298"
+        },
+        {
+          "file": "front/next-env.d.ts",
+          "hash": "11589040317585531256"
+        },
+        {
+          "file": "front/next.config.js",
+          "hash": "7869542326923865401",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "front/project.json",
+          "hash": "6658747213976250421"
+        },
+        {
+          "file": "front/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "front/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "front/src/app/api/hello/route.ts",
+          "hash": "12159998604013879547"
+        },
+        {
+          "file": "front/src/app/global.css",
+          "hash": "12142430952933299026"
+        },
+        {
+          "file": "front/src/app/layout.tsx",
+          "hash": "10741619710196912623"
+        },
+        {
+          "file": "front/src/app/page.module.css",
+          "hash": "5708835840392938794"
+        },
+        {
+          "file": "front/src/app/page.tsx",
+          "hash": "2856217093151521306"
+        },
+        {
+          "file": "front/tsconfig.json",
+          "hash": "12800477463176774811"
         }
       ]
     }
