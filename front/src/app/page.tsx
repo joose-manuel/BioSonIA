@@ -8,6 +8,25 @@ export default function Index() {
    */
   return (
     <div className={styles.page}>
+      <section className={styles.hero}>
+        <h1 className={styles.heroTitle}>BioSonIA</h1>
+        <p className={styles.heroSubtitle}>Frontend en Next.js dentro de un monorepo Nx.</p>
+        <a className={styles.cta} href="/">Entrar</a>
+        <div className={styles.cards}>
+          <div className={styles.card}>
+            <div className={styles.cardTitle}>Next.js 15</div>
+            <div className={styles.cardText}>App Router y compilación rápida.</div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.cardTitle}>Nx Monorepo</div>
+            <div className={styles.cardText}>Tareas orquestadas para front y back.</div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.cardTitle}>NestJS API</div>
+            <div className={styles.cardText}>Backend en http://localhost:3000/api.</div>
+          </div>
+        </div>
+      </section>
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
