@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/joose-manuel/BioSonIA#readme",
   "devDependencies": {
-    "@nestjs/schematics": "^11.0.0",
-    "@nestjs/testing": "^11.0.0",
+    "@nestjs/schematics": "11.0.0",
+    "@nestjs/testing": "11.0.0",
     "@nx/js": "22.0.2",
-    "@nx/nest": "^22.0.2",
-    "@nx/next": "^22.0.2",
+    "@nx/nest": "22.0.2",
+    "@nx/next": "22.0.2",
     "@nx/node": "22.0.2",
     "@nx/web": "22.0.2",
     "@nx/webpack": "22.0.2",
@@ -35,23 +35,23 @@
     "@swc/helpers": "~0.5.11",
     "@types/node": "20.19.9",
     "@types/react": "19.2.2",
-    "@types/react-dom": "^19.0.0",
+    "@types/react-dom": "19.0.0",
     "nx": "22.0.2",
     "prettier": "^2.6.2",
     "tslib": "^2.3.0",
     "typescript": "~5.9.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "5.1.4"
   },
   "nx": {},
   "dependencies": {
-    "@nestjs/common": "^11.0.0",
-    "@nestjs/core": "^11.0.0",
-    "@nestjs/platform-express": "^11.0.0",
-    "axios": "^1.6.0",
+    "@nestjs/common": "11.0.0",
+    "@nestjs/core": "11.0.0",
+    "@nestjs/platform-express": "11.0.0",
+    "axios": "1.6.0",
     "next": "~15.2.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.0"
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "7.8.0"
   }
 }

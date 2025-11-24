@@ -125,7 +125,7 @@
           "serve": {
             "executor": "nx:run-commands",
             "options": {
-              "command": "next dev -p 4200",
+              "command": "node --max-old-space-size=4096 ../node_modules/next/dist/bin/next dev -p 4200",
               "cwd": "front"
             },
             "configurations": {},
@@ -32328,5 +32328,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1762393039658
+  "computedAt": 1763952048253
 }
